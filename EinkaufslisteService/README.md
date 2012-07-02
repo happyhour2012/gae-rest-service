@@ -11,20 +11,20 @@ Benutzung:
 
 GET: 
 
-http://localhost:8080/helloworld-rs/einkaufslisten/
+http://localhost:8080/EinkaufslisteService/einkaufslisten/
 liefert alle Einkauflisten
 
 
-http://localhost:8080/helloworld-rs/einkaufslisten/count
+http://localhost:8080/EinkaufslisteService/einkaufslisten/count
 liefert die Anzahl Listen die es gibt
 
 
-http://localhost:8080/helloworld-rs/einkaufslisten/bla
+http://localhost:8080/EinkaufslisteService/einkaufslisten/bla
 sucht und liefert eine Einkaufliste, die im Namen "bla" hat
 
 
 POST: 
-http://localhost:8080/helloworld-rs/einkaufslisten/
+http://localhost:8080/EinkaufslisteService/einkaufslisten/
 speichert eine Einkaufsliste, die mit JSON übergeben wird. 
 z.B: 
 Content-Type: application/json
@@ -36,6 +36,6 @@ Body:
 
 
 DELETE: 
-http://localhost:8080/helloworld-rs/einkaufslisten/bla
+http://localhost:8080/EinkaufslisteService/einkaufslisten/bla
 löscht die Einkaufliste, die genau "bla" heisst
 
