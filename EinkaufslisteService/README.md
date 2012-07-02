@@ -1,6 +1,6 @@
 Einkaufsliste-Service Using JAX-RS (Java API for RESTful Web Services)
 ==========================================================================
-Authors: R�my Schumm for HappyHour 2012
+Authors: Remy Schumm for HappyHour 2012
 
 Ein- und Ausgabe ist: 
 Content-Type: application/json
