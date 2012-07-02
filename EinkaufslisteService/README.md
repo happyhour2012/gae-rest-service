@@ -25,8 +25,16 @@ sucht und liefert eine Einkaufliste, die im Namen "bla" hat
 POST: 
 http://localhost:8080/helloworld-rs/einkaufslisten/
 speichert eine Einkaufsliste, die mit JSON übergeben wird. 
+z.B: 
+Content-Type: application/json
+
+Body: 
+{"titel":"Coop"}
+
+
 
 
 DELETE: 
 http://localhost:8080/helloworld-rs/einkaufslisten/bla
-löscht die Einkaufliste, die im Namen "bla" hat
+löscht die Einkaufliste, die genau "bla" heisst
+
