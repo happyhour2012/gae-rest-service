@@ -7,6 +7,10 @@ Ein- und Ausgabe ist:
 Content-Type: application/json
 
 
+installation auf laufenden JBoss mit ``mvn install jboss-as:deploy``  
+
+
+
 Benutzung: 
 -----------
 

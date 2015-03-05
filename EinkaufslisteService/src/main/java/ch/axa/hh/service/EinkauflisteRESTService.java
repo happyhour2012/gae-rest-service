@@ -67,5 +67,11 @@ public class EinkauflisteRESTService {
     }
     
     
+    
+    
+    
+    
+    
+    
 
 }
